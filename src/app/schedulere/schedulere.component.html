@@ -1,0 +1,157 @@
+<!-- HTML Form (wrapped in a .bootstrap-iso div) -->
+<div class="bootstrap-iso">
+ <div class="container-fluid">
+  <div class="row">
+   <div class="col-md-6 col-sm-6 col-xs-12">
+    <form method="post">
+     <div class="form-group ">
+      <label class="control-label " for="startDate">
+       Date
+      </label>
+      <input class="form-control" id="startDate" name="startDate" placeholder="MM/DD/YYYY" type="text"/>
+     </div>
+     <div class="form-group ">
+      <label class="control-label requiredField" for="startTime">
+       Star Time
+       <span class="asteriskField">
+        *
+       </span>
+      </label>
+      <select class="select form-control" id="startTime" name="startTime">
+       <option value="12:00 AM">
+        12:00 AM
+       </option>
+       <option value="12:30 AM">
+        12:30 AM
+       </option>
+       <option value="01:00 AM">
+        01:00 AM
+       </option>
+       <option value="01:30 AM">
+        01:30 AM
+       </option>
+       <option value="02:00 AM">
+        02:00 AM
+       </option>
+       <option value="02:30 AM">
+        02:30 AM
+       </option>
+      </select>
+     </div>
+     <div class="form-group ">
+      <label class="control-label " for="select2">
+       Select a Choice
+      </label>
+      <select class="select form-control" id="select2" name="select2">
+       <option value="12:00 AM">
+        12:00 AM
+       </option>
+       <option value="12:30 AM">
+        12:30 AM
+       </option>
+       <option value="01:00 AM">
+        01:00 AM
+       </option>
+       <option value="01:30 AM">
+        01:30 AM
+       </option>
+      </select>
+     </div>
+     <div class="form-group ">
+      <label class="control-label " for="text">
+       Location
+      </label>
+      <div class="input-group">
+       <div class="input-group-addon">
+        <i class="fa fa-map-marker">
+        </i>
+       </div>
+       <input class="form-control" id="text" name="text" type="text"/>
+      </div>
+     </div>
+     <div class="form-group ">
+      <label class="control-label " for="choice">
+       Repeat
+      </label>
+      <select class="select form-control" id="choice" name="choice">
+       <option value="Once">
+        Once
+       </option>
+       <option value="Daily">
+        Daily
+       </option>
+       <option value="Weekly">
+        Weekly
+       </option>
+       <option value="Weekend">
+        Weekend
+       </option>
+       <option value="Custom">
+        Custom
+       </option>
+      </select>
+     </div>
+     <div class="form-group ">
+      <div class=" ">
+       <div class="checkbox">
+        <label class="checkbox">
+         <input name="checkbox" type="checkbox" value="Sun"/>
+         Sun
+        </label>
+       </div>
+       <div class="checkbox">
+        <label class="checkbox">
+         <input name="checkbox" type="checkbox" value="Mon"/>
+         Mon
+        </label>
+       </div>
+       <div class="checkbox">
+        <label class="checkbox">
+         <input name="checkbox" type="checkbox" value="Tue"/>
+         Tue
+        </label>
+       </div>
+       <div class="checkbox">
+        <label class="checkbox">
+         <input name="checkbox" type="checkbox" value="Wed"/>
+         Wed
+        </label>
+       </div>
+       <div class="checkbox">
+        <label class="checkbox">
+         <input name="checkbox" type="checkbox" value="Thu"/>
+         Thu
+        </label>
+       </div>
+       <div class="checkbox">
+        <label class="checkbox">
+         <input name="checkbox" type="checkbox" value="Fri"/>
+         Fri
+        </label>
+       </div>
+       <div class="checkbox">
+        <label class="checkbox">
+         <input name="checkbox" type="checkbox" value="Sat"/>
+         Sat
+        </label>
+       </div>
+      </div>
+     </div>
+     <div class="form-group ">
+      <label class="control-label " for="repeatUntill">
+       Repeat Untill
+      </label>
+      <input class="form-control" id="repeatUntill" name="repeatUntill" placeholder="MM/DD/YYYY" type="text"/>
+     </div>
+     <div class="form-group">
+      <div>
+       <button class="btn btn-primary " name="submit" type="submit">
+        Schedule Event
+       </button>
+      </div>
+     </div>
+    </form>
+   </div>
+  </div>
+ </div>
+</div>

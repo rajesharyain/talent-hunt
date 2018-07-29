@@ -1,0 +1,90 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    margin: 0;
+    background: #f5f5f5;
+}
+
+.margin-botom-none{margin-bottom:0px;}
+.border-radius-none{border-radius: 0px;}
+.glyphicon-class{
+    display: block;
+    text-align: center;
+    word-wrap: break-word;
+    top: 0px;
+    left:0px;
+    right:0px;
+    width: 100%;
+    text-transform: uppercase;
+}
+.glyphicon-font-size-24{
+    font-size: 24px;
+    margin-bottom: 10px;
+
+}
+.search-box{
+    padding:1.6rem 4rem 0 0;
+}
+.breadcrumb {
+    padding: 8px 15px;
+    margin: 5px 5px;
+    list-style: none;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+}
+.top-section{
+    background: white;
+    padding: 0.5rem 2rem;
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 -0.2rem 0 #31708f;
+    /*border-top: 3px solid #F48024;*/
+    margin-bottom: 0.2rem;
+}
+.right-section{
+    margin: 0 0 1rem 0;
+    background: white;
+    padding: 1rem 2rem 2rem;
+    border: 1px solid #e5e5e5;
+}
+.top-header{
+    border-top:3px solid #a3c58a;
+    padding: 1rem 2rem 2rem;
+}
+
+.panel-info > .panel-heading {
+   /* color: #fff;*/
+   /* background-color: #31708f;*/
+   /* border-color: #31708f;*/
+}
+
+.panel-info {
+    border: 1px solid #e5e5e5
+}
+.row{
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 5px;
+}
+.row > div:nth-of-type(1){
+    padding-left: 0px;
+    padding-right: 0px;
+
+}
+.nav-top-border{
+    border-top:3px solid #F48024
+}
+.nav-bottom-border{
+    border-bottom:3px dotted #F48024
+}
+
+
+
+.container md-card-actions {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #673ab7;
+  margin-left: -24px;
+  margin-right: -24px;
+}
+.container md-card-actions [md-raised-button]:first-child {
+  margin: 0 4px;
+}
